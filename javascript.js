@@ -39,7 +39,7 @@ let ourShipfirePower = document.getElementById("firePower_ourShip")
 
 
 
-//-----------------Initial Load Enemy Ships-----------------------------
+//-----------------Initial attempt to code for the enemy Ships-----------------------------
 container3rd = document.querySelector('#third-column')
 container2nd = document.querySelector('.second-column-inner')
 enemyShips.forEach((obj, index) => {
@@ -144,41 +144,3 @@ attack_button_our_ship.addEventListener("click", function () {
 
 
 
-//-------------------------------------------------------------
-
-//-------------------------------------------------------------
-
-
-//backup
-//-------------------------------------------------------------
-// container3rd = document.querySelector('#third-column')
-// container2nd = document.querySelector('.second-column-inner')
-// enemyShips.forEach((obj, index) => {
-//     if (index == 0) {
-//         const objectDiv = document.createElement('div');
-//         objectDiv.className = 'column';
-
-//         // Create content for the object element
-//         const imgDiv = document.createElement('img');
-//         imgDiv.src = `./images/b${index + 1}.png`;
-//         // objectContent.textContent = `hull: ${obj.hull}, firepoweer: ${obj.firePower}`;
-//         objectDiv.appendChild(imgDiv);
-//         // objectDiv.appendChild(objectContent);
-
-//         // Append the object element to the container
-//         container2nd.appendChild(objectDiv);
-//     } else {
-
-//         const objectDiv = document.createElement('div');
-//         objectDiv.className = 'inner-image';
-
-//         // Create content for the object element
-//         const imgDiv = document.createElement('img');
-//         imgDiv.src = `./images/b${index + 1}.png`;
-//         objectDiv.appendChild(imgDiv);
-
-//         // Append the object element to the container
-//         container3rd.appendChild(objectDiv);
-//     }
-// });
-//-------------------------------------------------------------
