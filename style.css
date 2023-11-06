@@ -1,0 +1,151 @@
+.header {
+    width: 95%;
+    background-color: #0074cc;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    margin-bottom: 5vw;
+
+}
+
+.ship-title {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #0074cc;
+    /* A shade of blue */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.column {
+    height: 200px;
+    /* Set the height as desired */
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#first-column {
+    margin-top: 15vh;
+    margin-left: 3%;
+    height: 30vw;
+    width: 30%;
+    background-color: #d8e9e7;
+}
+
+
+
+.first-column-inner {
+
+    display: flex;
+    justify-content: center;
+    background-color: saddlebrown;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.second-column-inner {
+
+    display: flex;
+    justify-content: center;
+    background-color: saddlebrown;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#second-column {
+    margin-left: 3%;
+    height: 30vw;
+    margin-top: 15vh;
+    width: 30%;
+    background-color: rgb(255, 210, 171)
+}
+
+#third-column {
+    position: absolute;
+
+    top: 15vh;
+    right: 0px;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 28%;
+    /* background-color: #cbc2f3; */
+}
+
+.column img {
+    padding: 5px;
+    background-color: #786e8b;
+    width: 22vw;
+    /* object-fit: cover; */
+}
+
+.center-image img {
+    max-width: 100%;
+    /* Ensures the image doesn't exceed the column width */
+    max-height: 100%;
+    /* Ensures the image doesn't exceed the column height */
+}
+
+body {
+    background-color: rgb(51, 48, 48);
+}
+
+.ships-powers {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ships-powers-inner {
+    padding: 10px;
+}
+
+button {
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sel {
+    color: white;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    font-size: 30px;
+}
+
+.start {
+    position: absolute;
+    top: 98vh;
+    left: 35px;
+}
+
+
+.players {
+    border-radius: 10px;
+    position: absolute;
+    top: 105vh;
+    left: 35px;
+    width: 23vw;
+    background-color: #ffffff;
+}

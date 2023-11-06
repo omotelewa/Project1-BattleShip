@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        Battleship Game
+    </div>
+
+
+    <span class="first-two">
+        <div class="column our-ship" id="first-column">
+            <!-- Content for the first column -->
+            <div class="ship-title">
+                MariGioce
+            </div>
+
+            <div class="first-column-inner">
+
+                <img src="images/our.png" alt="Image 1">
+
+            </div>
+
+            <div class="ships-powers">
+                <div class="ships-powers-inner">
+                    Hull: <span id="hull_ourShip"> </span>
+                </div>
+                <div class="ships-powers-inner">
+                    Accuracy: <span id="accuracy_ourShip"> </span>
+                </div>
+                <div class="ships-powers-inner">
+                    Firepower: <span id="firePower_ourShip"> </span>
+                </div>
+
+
+            </div>
+
+            <div class="button-container">
+                <span class="attack_button">
+                    <button id="attack_button_our_ship">
+                        Attack Fire
+                    </button>
+
+                </span>
+                <span>
+                    <button>
+                        Retreat
+                    </button>
+
+                </span>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="column" id="second-column">
+            <!-- Content for the second column -->
+
+            <div class="ship-title">
+                Gorose
+            </div>
+
+            <div class="second-column-inner">
+                <!-- <img src="images/b1.png" alt="Image 1"> -->
+            </div>
+
+            <div class="ships-powers">
+                <div class="ships-powers-inner">
+                    Hull: <span id="hull_enemy"> </span>
+                </div>
+                <div class="ships-powers-inner">
+                    Accuracy: <span id="accuracy_enemy"> </span>
+                </div>
+                <div class="ships-powers-inner">
+                    Firepower: <span id="firepower_enemy"> </span>
+                </div>
+            </div>
+            <!-- <div class="button-container">
+                <span class="attack_button">
+                    <button>
+                        Return Fire
+                    </button>
+
+                </span>
+            </div> -->
+        </div>
+
+        <div id="sel">
+
+        </div>
+    </span>
+
+
+
+
+    <div class="column" id="third-column">
+        <!-- Content for the third column -->
+        <div class="inner-image">
+            <!-- <img src="images/b1.png" alt="Image 1"> -->
+        </div>
+        <div id="test" class="inner-image">
+            <!-- <img src="images/b2.png" alt="Image 2"> -->
+        </div>
+        <div class="inner-image">
+            <!-- <img src="images/b3.png" alt="Image 3"> -->
+        </div>
+        <div class="inner-image">
+            <!-- <img src="images/b4.png" alt="Image 4"> -->
+        </div>
+        <div class="inner-image">
+            <!-- <img src="images/b5.png" alt="Image 5"> -->
+        </div>
+        <div class="inner-image">
+            <!-- <img src="images/b6.png" alt="Image 6"> -->
+        </div>
+    </div>
+
+    <div class="start">
+        <button style="width: 80px; height: 40px; font-size: 20px;">
+            Start
+        </button>
+
+    </div>
+    <div class="players">
+
+        <div style="font-size: 21px; padding-left: 4%;">
+            Player 1 Scores:
+        </div>
+        <div style="font-size: 21px; padding-left: 4%;">
+            Player 2 Scores:
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+
+
+</body>
+
+</html>
